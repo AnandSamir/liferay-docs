@@ -35,7 +35,7 @@ a theme. To include a layout template with a theme, follow these steps:
     below:
 
         <template-path>
-            /layoutttpl/custom/my_liferay_layout_template.ftl
+            /layouttpl/custom/my_liferay_layout_template.tpl
         </template-path>
     
 4.  Specify the 
@@ -43,7 +43,7 @@ a theme. To include a layout template with a theme, follow these steps:
     path with a `<thumbnail-path>` tag, as shown below:
 
         <thumbnail-path>
-            /layoutttpl/custom/my_liferay_layout_template.png
+            /layouttpl/custom/my_liferay_layout_template.png
         </thumbnail-path>
     
 5.  Place the completed layout in your theme's `src/layouttpl` folder. Below is 
@@ -56,10 +56,10 @@ a theme. To include a layout template with a theme, follow these steps:
                   <layout-template id="my_liferay_layout_template" 
                   name="My Liferay Layout Template">
                     <template-path>
-                        /layoutttpl/custom/my_liferay_layout_template.ftl
+                        /layouttpl/custom/my_liferay_layout_template.tpl
                     </template-path>
                     <thumbnail-path>
-                        /layoutttpl/custom/my_liferay_layout_template.png
+                        /layouttpl/custom/my_liferay_layout_template.png
                     </thumbnail-path>
                   </layout-template>
                 </custom>
