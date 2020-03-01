@@ -154,10 +154,10 @@ layout template example shown above:
               <layout-template id="my_liferay_layout_template" 
               name="My Liferay Layout Template">
                 <template-path>
-                    /layoutttpl/custom/my_liferay_layout_template.tpl
+                    /layouttpl/custom/my_liferay_layout_template.tpl
                 </template-path>
                 <thumbnail-path>
-                    /layoutttpl/custom/my_liferay_layout_template.png
+                    /layouttpl/custom/my_liferay_layout_template.png
                 </thumbnail-path>
               </layout-template>
             </custom>
